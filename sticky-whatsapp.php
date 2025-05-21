@@ -75,7 +75,7 @@ function sticky_whatsapp_register_settings() {
     register_setting( 'sticky_whatsapp_settings_group', 'sticky_whatsapp_phone', [
         'type' => 'string',
         'sanitize_callback' => 'sanitize_text_field',
-        'default' => '526421005010',
+        'default' => '525512345678',
     ]);
 }
 add_action( 'admin_init', 'sticky_whatsapp_register_settings' );
